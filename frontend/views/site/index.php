@@ -35,7 +35,7 @@ $this->title = Yii::$app->name;
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="panel panel-default">
             <div class="panel-heading text-center">
-                <h3><?= Yii::t('home', 'GIS') ?> «<?= Yii::t('home', 'Petroglyphs') ?>»</h3>
+                <h3><a href="http://petrogis.mmc.nsu.ru" target="_blank"><?= Yii::t('home', 'GIS') ?> «<?= Yii::t('home', 'Petroglyphs') ?>»</a></h3>
             </div>
             <div class="panel-body">
                 <p>
@@ -52,38 +52,39 @@ $this->title = Yii::$app->name;
         </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="panel panel-default">
-            <div class="panel-heading text-center">
-                <h3><?= Yii::t('home', '3D Gallery') ?> ARTEMIRIS</h3>
-            </div>
-            <div class="panel-body">
-            </div>
-            <div class="panel-footer">
-                &nbsp;
-            </div>
-        </div>
-    </div>
+<!--    <div class="col-xs-12 col-sm-6 col-md-4">-->
+<!--        <div class="panel panel-default">-->
+<!--            <div class="panel-heading text-center">-->
+<!--                <h3>--><?//= Yii::t('home', '3D Gallery') ?><!-- ARTEMIRIS</h3>-->
+<!--            </div>-->
+<!--            <div class="panel-body">-->
+<!--            </div>-->
+<!--            <div class="panel-footer">-->
+<!--                &nbsp;-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="col-xs-12 col-sm-6 col-md-4">-->
+<!--        <div class="panel panel-default">-->
+<!--            <div class="panel-heading text-center">-->
+<!--                <h3>--><?//= Yii::t('home', 'Malta') ?><!--</h3>-->
+<!--            </div>-->
+<!--            <div class="panel-body">-->
+<!--            </div>-->
+<!--            <div class="panel-footer">-->
+<!--                &nbsp;-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="clearfix"></div>-->
 
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="panel panel-default">
             <div class="panel-heading text-center">
-                <h3><?= Yii::t('home', 'Malta') ?></h3>
-            </div>
-            <div class="panel-body">
-            </div>
-            <div class="panel-footer">
-                &nbsp;
-            </div>
-        </div>
-    </div>
-
-    <div class="clearfix"></div>
-
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="panel panel-default">
-            <div class="panel-heading text-center">
-                <h3><?= Yii::t('home', 'GIS') ?> «AMSP»</h3>
+                <h3>
+                    <a href="www.amsp.ugent.be" target="_blank"><?= Yii::t('home', 'GIS') ?> «AMSP»</a></h3>
             </div>
             <div class="panel-body">
                 <p>
@@ -105,7 +106,7 @@ $this->title = Yii::$app->name;
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="panel panel-default">
             <div class="panel-heading text-center">
-                <h3><?= Yii::t('home', '3D Gallery') ?> <?= Yii::t('home', 'NSU') ?></h3>
+                <h3><a href="https://3d.nsu.ru" target="_blank"><?= Yii::t('home', '3D Gallery') ?> <?= Yii::t('home', 'NSU') ?></a></h3>
             </div>
             <div class="panel-body">
                 <p>
@@ -118,10 +119,12 @@ $this->title = Yii::$app->name;
         </div>
     </div>
 
+    <div class="clearfix"></div>
+
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="panel panel-default">
             <div class="panel-heading text-center">
-                <h3>Sketchfab</h3>
+                <h3><a href="https://sketchfab.com" target="_blank">Sketchfab</a></h3>
             </div>
             <div class="panel-body">
                 <p>

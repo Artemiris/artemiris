@@ -23,7 +23,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="item-user">
-            <?= Html::img('/img/performers/user.png', ['class' => 'img img-responsive']) ?>
+            <?= Html::img('/img/performers/kazakov.jpg', ['class' => 'img img-responsive']) ?>
             <b>
                 <?= Yii::t('performers', 'Kazakov Vladislav Vitalyevich') ?>
             </b>
@@ -35,7 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="item-user">
-            <?= Html::img('/img/performers/user.png', ['class' => 'img img-responsive']) ?>
+            <?= Html::img('/img/performers/lbova.jpg', ['class' => 'img img-responsive']) ?>
             <b>
                 <?= Yii::t('performers', 'Lbova Lyudmila Valentinovna') ?>
             </b>
@@ -47,7 +47,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="item-user">
-            <?= Html::img('/img/performers/user.png', ['class' => 'img img-responsive']) ?>
+            <?= Html::img('/img/performers/kovalev.jpg', ['class' => 'img img-responsive']) ?>
             <b>
                 <?= Yii::t('performers', 'Kovalev Vasily Sergeevich') ?>
             </b>

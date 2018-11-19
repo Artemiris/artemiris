@@ -1,12 +1,14 @@
 .item-user {
   border: solid 2px #e1e1e1;
   padding: 15px;
-  min-height: 550px;
+  min-height: 450px;
   margin-bottom: 25px; }
   .item-user b {
     display: block;
     margin-bottom: 20px; }
   .item-user p {
     font-size: 14px; }
+  .item-user img {
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=performers.css.map */

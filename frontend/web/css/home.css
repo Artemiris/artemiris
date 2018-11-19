@@ -8,9 +8,13 @@
   .banner .plate {
     background-color: rgba(0, 0, 0, 0.65);
     max-width: 600px;
-    padding: 40px; }
+    padding: 40px;
+    font-size: 26px; }
 
 .panel-body {
-  min-height: 150px; }
+  min-height: 170px; }
+
+.panel-footer {
+  font-size: 15px; }
 
 /*# sourceMappingURL=home.css.map */
