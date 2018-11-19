@@ -1,6 +1,7 @@
 <?php
 
 /* @var $this \yii\web\View */
+
 /* @var $content string */
 
 use yii\helpers\Html;
@@ -9,6 +10,7 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
+use frontend\components\Lang;
 
 AppAsset::register($this);
 ?>
@@ -32,33 +34,58 @@ AppAsset::register($this);
         'brandLabel' => Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
+            'class' => 'navbar-inverse',
         ],
     ]);
+    ?>
+
+
+
+    <?php
     $menuItems = [
-        ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'About', 'url' => ['/site/about']],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
+        ['label' => Yii::t('app', 'Home'), 'url' => ['/site/index']],
+        ['label' => Yii::t('app', 'Project'), 'url' => ['/site/project']],
+        ['label' => Yii::t('app', 'Resources'), 'url' => ['/site/resources']],
+        ['label' => Yii::t('app', 'News'), 'url' => ['/site/news']],
+        ['label' => Yii::t('app', 'Performers'), 'url' => ['/site/performers']],
+        ['label' => Yii::t('app', 'Publication'), 'url' => ['/site/publication']],
+        ['label' => Yii::t('app', 'Links'), 'url' => ['/site/links']],
     ];
-    if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
-    } else {
-        $menuItems[] = '<li>'
-            . Html::beginForm(['/site/logout'], 'post')
-            . Html::submitButton(
-                'Logout (' . Yii::$app->user->identity->username . ')',
-                ['class' => 'btn btn-link logout']
-            )
-            . Html::endForm()
-            . '</li>';
-    }
-    echo Nav::widget([
+    //    if (Yii::$app->user->isGuest) {
+    //        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
+    //        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+    //    } else {
+    //        $menuItems[] = '<li>'
+    //            . Html::beginForm(['/site/logout'], 'post')
+    //            . Html::submitButton(
+    //                'Logout (' . Yii::$app->user->identity->username . ')',
+    //                ['class' => 'btn btn-link logout']
+    //            )
+    //            . Html::endForm()
+    //            . '</li>';
+    //    }
+    ?>
+
+    <?php
+    $menuLang = (new Lang)->run([
+            'widget_type' => 'classic', // classic or selector
+            'image_type' => 'rounded', // classic or rounded
+            'width' => '18',
+//            'calling_controller' => $this->context,
+        ]);
+
+    $menuItems = array_merge($menuItems, $menuLang);
+    ?>
+
+
+    <?= Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => $menuItems,
-    ]);
-    NavBar::end();
-    ?>
+        'encodeLabels' => false,
+    ]) ?>
+
+    <?php NavBar::end(); ?>
+
 
     <div class="container">
         <?= Breadcrumbs::widget([
