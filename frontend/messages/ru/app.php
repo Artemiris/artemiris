@@ -1,1 +1,1 @@
-<?phpreturn [    // menu    'Home' => 'Главная',    'Project' => 'Проект',    'Resources' => 'Ресурсы',    'News' => 'Новости',    'Performers' => 'Исполнители',    'Publication' => 'Публикации',    'Links' => 'Ссылки',    'Read more' => 'Подробнее',];
+<?phpreturn [    // menu    'Home' => 'Главная',    'Project' => 'Проект',    'Resources' => 'Ресурсы',    'News' => 'Новости',    'Performers' => 'Исполнители',    'Publication' => 'Публикации',    'Links' => 'Ссылки',    'About' => 'О проекте',    'Read more' => 'Подробнее',];
