@@ -105,11 +105,6 @@ class SiteController extends Controller
         return $this->render('links');
     }
 
-    public function actionAbout()
-    {
-        return $this->render('about');
-    }
-
     /**
      * Logs in a user.
      *

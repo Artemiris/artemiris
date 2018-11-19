@@ -22,7 +22,7 @@ $this->title = Yii::$app->name;
                     </p>
                     <br>
                     <p class="text-right">
-                        <?= Html::a(Yii::t('app', 'Read more'), ['site/about'], ['class' => 'btn btn-primary']) ?>
+                        <?= Html::a(Yii::t('app', 'Read more'), ['site/project'], ['class' => 'btn btn-primary']) ?>
                     </p>
                 </div>
             </div>
