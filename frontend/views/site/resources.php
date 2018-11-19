@@ -4,13 +4,52 @@
 
 use yii\helpers\Html;
 
-$this->title = 'resources';
+$this->title = Yii::t('app', 'Resources');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-about">
-    <h1><?= Html::encode($this->title) ?></h1>
+<h1><?= Html::encode($this->title) ?></h1>
 
-    <p>This is the About page. You may modify the following file to customize its content:</p>
+<h2>
+    <?= Yii::t('resources', '') ?>
+</h2>
+<?= Yii::t('resources', '') ?>
 
-    <code><?= __FILE__ ?></code>
-</div>
+
+<h3><?= Yii::t('resources', 'GIS') ?> «<?= Yii::t('resources', 'Petroglyphs') ?>»</h3>
+<p>
+    <?= Yii::t('resources', 'Geographic information system on Altai petroglyphs. The project is in active development in 2017-2018. The database contains {n1} objects ({n2} - Chagan, Kosh-Agach district, {n3} - Shalobolino, Khakassia) with a basic data set - geographical location, a series of photos, a brief description.', [
+        'n1' => 627,
+        'n2' => 586,
+        'n3' => 40,
+    ]) ?>
+</p>
+<p>
+    <?= Yii::t('resources', 'Access to the system is limited, requests for access are accepted by e-mail') ?>:
+    <a href="mailto:mirrorlab.artemir@gmail.com">mirrorlab.artemir@gmail.com</a>
+</p>
+
+<!--<h3>--><?//= Yii::t('resources', '3D Gallery') ?><!-- ARTEMIRIS</h3>-->
+
+<!--<h3>--><?//= Yii::t('resources', 'Malta') ?><!--</h3>-->
+
+<h3><?= Yii::t('resources', 'GIS') ?> «AMSP»</h3>
+<p>
+    <?= Yii::t('resources', 'Geographic information system on the petroglyphs of the Turu-Alty Kosh-Agach district. The data was collected by the ARCHAEO Research Group of the University of Ghent under the guidance of Professor Jean Bourgeois (University of Ghent, Belgium) in 2014-2015. The database contains {n} an object with a basic data set - geographical location, a series of photos, a brief description.', [
+        'n' => 321,
+    ]) ?>
+</p>
+<?= Yii::t('resources', 'Access to the system is limited, requests for access can be sent to prof. Jean Bourgeois by e-mail') ?>:
+<a href="mailto:Jean.Bourgeois@UGent.be">Jean.Bourgeois@UGent.be</a>
+
+<h3><?= Yii::t('resources', '3D Gallery') ?> <?= Yii::t('resources', 'NSU') ?></h3>
+<p>
+    <?= Yii::t('resources', 'Gallery of three-dimensional models developed at the Novosibirsk State University. The database contains about {n} models, mainly archaeological subjects.', [
+        'n' => 200,
+    ]) ?>
+</p>
+
+<h3>Sketchfab</h3>
+<p>
+    <?= Yii::t('resources', 'The Multidisciplinary Research Laboratory of the Primitive Art of Eurasia on the website-aggregator of three-dimensional models') ?>
+    <a href="https://sketchfab.com/artemir" target="_blank">https://sketchfab.com/artemir</a>
+</p>
