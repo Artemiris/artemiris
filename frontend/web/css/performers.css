@@ -1,0 +1,12 @@
+.item-user {
+  border: solid 2px #777;
+  padding: 15px;
+  min-height: 550px;
+  margin-bottom: 25px; }
+  .item-user b {
+    display: block;
+    margin-bottom: 20px; }
+  .item-user p {
+    font-size: 14px; }
+
+/*# sourceMappingURL=performers.css.map */
