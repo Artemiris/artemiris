@@ -27,7 +27,10 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= Yii::t('resources', 'Access to the system is limited, requests for access are accepted by e-mail') ?>:
     <a href="mailto:mirrorlab.artemir@gmail.com">mirrorlab.artemir@gmail.com</a>
 </p>
-
+<p>
+    <a href="http://petrogis.mmc.nsu.ru/" target="_blank" class="btn btn-primary"><?= Yii::t('app', 'Go to')?></a>
+</p>
+<br>
 <!--<h3>--><?//= Yii::t('resources', '3D Gallery') ?><!-- ARTEMIRIS</h3>-->
 
 <!--<h3>--><?//= Yii::t('resources', 'Malta') ?><!--</h3>-->
@@ -38,8 +41,14 @@ $this->params['breadcrumbs'][] = $this->title;
         'n' => 321,
     ]) ?>
 </p>
-<?= Yii::t('resources', 'Access to the system is limited, requests for access can be sent to prof. Jean Bourgeois by e-mail') ?>:
-<a href="mailto:Jean.Bourgeois@UGent.be">Jean.Bourgeois@UGent.be</a>
+<p>
+    <?= Yii::t('resources', 'Access to the system is limited, requests for access can be sent to prof. Jean Bourgeois by e-mail') ?>:
+    <a href="mailto:Jean.Bourgeois@UGent.be">Jean.Bourgeois@UGent.be</a>
+</p>
+<p>
+    <a href="http://www.amsp.ugent.be/" target="_blank" class="btn btn-primary"><?= Yii::t('app', 'Go to')?></a>
+</p>
+<br>
 
 <h3><?= Yii::t('resources', '3D Gallery') ?> <?= Yii::t('resources', 'NSU') ?></h3>
 <p>
@@ -47,9 +56,16 @@ $this->params['breadcrumbs'][] = $this->title;
         'n' => 200,
     ]) ?>
 </p>
+<p>
+    <a href="https://3d.nsu.ru/" target="_blank" class="btn btn-primary"><?= Yii::t('app', 'Go to')?></a>
+</p>
+<br>
 
-<h3>Sketchfab</h3>
+<h3>Sketchfab Artemir</h3>
 <p>
     <?= Yii::t('resources', 'The Multidisciplinary Research Laboratory of the Primitive Art of Eurasia on the website-aggregator of three-dimensional models') ?>
-    <a href="https://sketchfab.com/artemir" target="_blank">https://sketchfab.com/artemir</a>
 </p>
+<p>
+    <a href="https://sketchfab.com/artemir" target="_blank" class="btn btn-primary"><?= Yii::t('app', 'Go to')?></a>
+</p>
+<br>
