@@ -84,7 +84,7 @@ $this->title = Yii::$app->name;
         <div class="panel panel-default">
             <div class="panel-heading text-center">
                 <h3>
-                    <a href="www.amsp.ugent.be" target="_blank"><?= Yii::t('home', 'GIS') ?> «AMSP»</a></h3>
+                    <a href="http://www.amsp.ugent.be" target="_blank"><?= Yii::t('home', 'GIS') ?> «AMSP»</a></h3>
             </div>
             <div class="panel-body">
                 <p>
@@ -124,7 +124,7 @@ $this->title = Yii::$app->name;
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="panel panel-default">
             <div class="panel-heading text-center">
-                <h3><a href="https://sketchfab.com" target="_blank">Sketchfab</a></h3>
+                <h3><a href="https://sketchfab.com/artemir" target="_blank">Sketchfab Artemir</a></h3>
             </div>
             <div class="panel-body">
                 <p>
@@ -132,7 +132,7 @@ $this->title = Yii::$app->name;
                 </p>
             </div>
             <div class="panel-footer">
-                <a href="https://sketchfab.com/artemir" target="_blank">https://sketchfab.com/artemir</a>
+                &nbsp;
             </div>
         </div>
     </div>
