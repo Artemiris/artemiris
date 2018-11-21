@@ -29,9 +29,6 @@ $this->params['breadcrumbs'][] = $this->title;
         <a href="https://projectmosul.org/" target="_blank">https://projectmosul.org/</a>
     </li>
     <li>
-        Тамбалы Рогожинского
-    </li>
-    <li>
         <a href="https://ogham.celt.dias.ie/stone.php?lang=en&site=Ballynahunt&stone=171._Ballynahunt&stoneinfo=html3dview" target="_blank">ogham.celt.dias.ie</a>
     </li>
     <li>
