@@ -9,7 +9,7 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <h1><?= Html::encode($this->title) ?></h1>
 
-<ol>
+<ol class="list-group">
     <li>
         <a href="http://www.cidoc-crm.org/" target="_blank">http://www.cidoc-crm.org/</a>
     </li>
