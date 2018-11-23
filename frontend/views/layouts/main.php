@@ -43,7 +43,6 @@ AppAsset::register($this);
 
     <?php
     $menuItems = [
-        ['label' => Yii::t('app', 'Home'), 'url' => ['/site/index']],
         ['label' => Yii::t('app', 'Project'), 'url' => ['/site/project']],
         ['label' => Yii::t('app', 'Resources'), 'url' => ['/site/resources']],
         ['label' => Yii::t('app', 'News'), 'url' => ['/site/news']],
@@ -71,7 +70,6 @@ AppAsset::register($this);
             'widget_type' => 'classic', // classic or selector
             'image_type' => 'rounded', // classic or rounded
             'width' => '18',
-//            'calling_controller' => $this->context,
         ]);
 
     $menuItems = array_merge($menuItems, $menuLang);
