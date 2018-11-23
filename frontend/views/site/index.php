@@ -44,10 +44,10 @@ $this->title = Yii::$app->name;
                         'n2' => 40,
                     ]) ?>
                 </p>
-            </div>
-            <div class="panel-footer">
-                <?= Yii::t('home', 'Access by e-mail') ?>
-                <a href="mailto:mirrorlab.artemir@gmail.com">mirrorlab.artemir@gmail.com</a>
+                <p>
+                    <?= Yii::t('home', 'Access by e-mail') ?>
+                    <a href="mailto:mirrorlab.artemir@gmail.com">mirrorlab.artemir@gmail.com</a>
+                </p>
             </div>
         </div>
     </div>
@@ -59,9 +59,6 @@ $this->title = Yii::$app->name;
 <!--            </div>-->
 <!--            <div class="panel-body">-->
 <!--            </div>-->
-<!--            <div class="panel-footer">-->
-<!--                &nbsp;-->
-<!--            </div>-->
 <!--        </div>-->
 <!--    </div>-->
 
@@ -71,9 +68,6 @@ $this->title = Yii::$app->name;
 <!--                <h3>--><?//= Yii::t('home', 'Malta') ?><!--</h3>-->
 <!--            </div>-->
 <!--            <div class="panel-body">-->
-<!--            </div>-->
-<!--            <div class="panel-footer">-->
-<!--                &nbsp;-->
 <!--            </div>-->
 <!--        </div>-->
 <!--    </div>-->
@@ -89,16 +83,14 @@ $this->title = Yii::$app->name;
             <div class="panel-body">
                 <p>
                     <?= Yii::t('home', 'Geoinformation system on petroglyphs of Turu-Alty Kosh-Agach district of Altai river') ?>
-                </p>
-                <p>
                     <?= Yii::t('home', 'Ghent University Database - {n} object', [
                         'n' => 321,
                     ]) ?>
                 </p>
-            </div>
-            <div class="panel-footer">
-                <?= Yii::t('home', 'Access by e-mail') ?>
-                <a href="mailto:Jean.Bourgeois@UGent.be">Jean.Bourgeois@UGent.be</a>
+                <p>
+                    <?= Yii::t('home', 'Access by e-mail') ?>
+                    <a href="mailto:Jean.Bourgeois@UGent.be">Jean.Bourgeois@UGent.be</a>
+                </p>
             </div>
         </div>
     </div>
@@ -113,13 +105,8 @@ $this->title = Yii::$app->name;
                     <?= Yii::t('home', 'Gallery of three-dimensional models developed at the Novosibirsk State University, mainly archaeological topics') ?>
                 </p>
             </div>
-            <div class="panel-footer">
-                &nbsp;
-            </div>
         </div>
     </div>
-
-    <div class="clearfix"></div>
 
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="panel panel-default">
@@ -130,9 +117,6 @@ $this->title = Yii::$app->name;
                 <p>
                     <?= Yii::t('home', 'Sketchfab account of the Laboratory of Multidisciplinary Studies of Primitive Art of Eurasia, NSU') ?>
                 </p>
-            </div>
-            <div class="panel-footer">
-                &nbsp;
             </div>
         </div>
     </div>
