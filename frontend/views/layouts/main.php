@@ -47,7 +47,7 @@ AppAsset::register($this);
         ['label' => Yii::t('app', 'Project'), 'url' => ['/site/project']],
         ['label' => Yii::t('app', 'Resources'), 'url' => ['/site/resources']],
         ['label' => Yii::t('app', 'News'), 'url' => ['/site/news']],
-        ['label' => Yii::t('app', 'Performers'), 'url' => ['/site/performers']],
+        ['label' => Yii::t('app', 'Team'), 'url' => ['/site/team']],
         ['label' => Yii::t('app', 'Publication'), 'url' => ['/site/publication']],
         ['label' => Yii::t('app', 'Links'), 'url' => ['/site/links']],
     ];

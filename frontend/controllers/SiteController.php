@@ -90,9 +90,9 @@ class SiteController extends Controller
         return $this->render('news');
     }
 
-    public function actionPerformers()
+    public function actionTeam()
     {
-        return $this->render('performers');
+        return $this->render('team');
     }
 
     public function actionPublication()
