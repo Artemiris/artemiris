@@ -96,9 +96,13 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; <?= Html::encode(Yii::$app->name) ?> <?= date('Y') ?></p>
-
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <p>
+            &copy;
+            <a href="https://www.nsu.ru/n/" target="_blank"><?= Yii::t('app', 'Novosibirsk State University') ?></a>
+            <i class="fas fa-arrow-right"></i>
+            <a href="http://artemir.nsu.ru/" target="_blank"><?= Yii::t('app', 'Lab "LIA ARTEMIR"') ?></a>
+        </p>
+        <p><?= Yii::t('app', 'Project supported by RSCF #18-78-10079') ?> </p>
     </div>
 </footer>
 

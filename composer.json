@@ -23,7 +23,8 @@
         "kv4nt/yii2-owl-carousel2": "*",
         "kartik-v/yii2-widget-select2": "@dev",
         "newerton/yii2-fancybox": "dev-master",
-        "mihaildev/yii2-ckeditor": "*"
+        "mihaildev/yii2-ckeditor": "*",
+        "rmrevin/yii2-fontawesome": "~3.1"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
