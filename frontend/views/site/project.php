@@ -10,5 +10,58 @@ $this->params['breadcrumbs'][] = $this->title;
 <h1><?= Html::encode($this->title) ?></h1>
 
 <p>
-    <?= Yii::t('about', 'The project aims to develop an effective technology for documenting archaeological objects (artifacts, archaeological monuments, complexes of monuments), integration of materials based on the information system and the exchange of such data. It is intended to develop a single archaeological information system and a database on materials from objects in Southern Siberia as a territory with a high concentration of archaeological heritage sites, which are currently represented in a weakly structured form. The implementation of the project proposals will provide a complete documentation of archaeological objects, including a full scientific description, their attribution with illustrations in the form of 3D-models of objects. The project involves the development of optimal algorithmic support for high-precision documentation and study of archaeological objects in the field based on the automation of the stages of primary documentation, including using original mobile applications. Building an information system is supposed to be in a three-tier client-server architecture with a web server as an application server and with a database management system. The information system will be built in a multi-user and multi-role access model, GIS services will be integrated to display spatial data on a map. The results of the project will be presented by an information system hosted on the NSU server, in reports at international conferences, and publication of scientific articles. The proposed development of an information system with the ability to aggregate data, store scientific information, analyze data, model and convert loosely coupled data into competent knowledge and knowledge of this knowledge is of great practical importance. The project seems to be promising in terms of objectively existing needs.')?>
+    Одной из важнейших задач археологии является документирование и систематизация объектов историко-культурного
+    наследия. За прошедшие десятилетия были зафиксированы и, в том или ином качестве, описаны достаточно большие объемы
+    археологических данных, представленные в монографическом, каталогизированном видах. В последние годы технический
+    прогресс значительно повлиял на инструменты и возможности документации археологических объектов. При этом, несмотря
+    на значительные открывшиеся возможности, задача документации и систематизации археологических знаний обладает рядом
+    нерешенных проблем:
+<ul>
+    <li>
+        Во-первых, научные и общественно-значимые знания о культурном наследии: объектах археологического наследия,
+        отдельных археологических находках, землях и территориях историко-культурного значения, как правило,
+        представлены во фрагментированном виде. У множества научных групп сегодня есть свои базы данных, которые не
+        публикуются и не предоставляются для коллег. Обмен такими данными в настоящее время достаточно затруднен или
+        невозможен вообще.
+    </li>
+    <li>
+        Во-вторых, на сегодняшний момент отсутствует единообразный подход к описанию и атрибутированию археологических
+        объектов. Несмотря на существующие попытки в выработке общего стандарта, на сегодняшний день, в основном, каждая
+        научная группа пользуется своим стандартом.
+    </li>
+    <li>
+        В-третьих, можно констатировать некоторое отставание существующей археологической практики от технического
+        прогресса в области методов документирования археологических объектов.
+    </li>
+    <li>
+        В-четвертых, не решен вопрос обеспечения доступа и обмена данными об уязвимых объектах. В результате этого,
+        сегодня, по возможности, все имеющиеся данные скрыты от общественности, при этом страдает качество и
+        эффективность научной коммуникации, как и научно-популяризаторские возможности.
+    </li>
+</ul>
+</p>
+
+<p>
+    Цель проекта – разработка эффективной технологии для документирования археологических объектов изобразительного ряда
+    (артефактов, памятников, комплексов памятников), обмена такими данными и, в допустимом объеме, публикации в открытом
+    доступе. В том числе, предполагается разработка единой археологической информационной системы и базы данных,
+    обеспечивающих возможность полноценного документирования петроглифов, археологических находок, археологических
+    участков, включая полноценное описание, атрибутирование объектов, 3D-модели объектов. В рамках построения
+    информационной системы предполагается разработка методики картографирования с использованием ГИС-сервисов, создание
+    эффективной системы доступа для исследователей и широкой общественности и системы контроля авторства вводимых
+    материалов, реализация прототипов автоматизированных интеллектуальных инструментов поиска аналогий, закономерностей
+    и распознавания художественных сюжетов. Наполнение системы должно обеспечиваться не только за счет коллектива
+    авторов проекта, но и за счет прямой работы с системой сторонних специалистов, групп и организаций.
+</p>
+
+<p>
+    В рамках проекта предполагается разработка оптимального алгоритмического обеспечения высокоточного документирования
+    и изучения археологических объектов в полевых условиях на основе стандартизации и автоматизации этапов работы
+    первичного документирования, в том числе с использованием оригинальных мобильных приложений.
+</p>
+
+<p>
+    В исследовании предполагается: проведение анализа существующих методик 3D технологий документирования в
+    археологических полевых исследованиях и в музейной практике; разработка методических приемов обработки и
+    трансформации в 3D модель уникальных объектов разной степени детализации, в т.ч. со значительными утратами.
 </p>
