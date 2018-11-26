@@ -21,7 +21,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
             <h4><?= Yii::t('news', 'Russian-Belgian cooperation') ?></h4>
             <p>
-                <?= Yii::t('news', 'In collaboration with the research team of the University of Ghent business trips, an information system was developed for the Petroglyphs of the Turu-Alty Kosh-Agachsky District, r. Altai.') ?>
+                <?= Yii::t('news', 'In collaboration with the research team of the University of Ghent, an information system was developed for the Petroglyphs of the Turu-Alty Kosh-Agachsky District, r. Altai.') ?>
             </p>
         </div>
     </div>
