@@ -18,7 +18,7 @@ $this->title = Yii::$app->name;
                 <div class="plate">
                     <h1><?= Html::encode($this->title) ?></h1>
                     <p>
-                        <?= Yii::t('home', 'Archaeological Documentation Information System of Primitive Art of Eurasia') ?>
+                        <?= Yii::t('home', 'Information System on Archaeological Documentation of Primitive Art of Eurasia') ?>
                     </p>
                     <br>
                     <p class="text-right">
