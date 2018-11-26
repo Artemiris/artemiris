@@ -59,7 +59,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="item-user">
-            <?= Html::img('/img/team/user.png', ['class' => 'img img-responsive']) ?>
+            <?= Html::img('/img/team/zhumadilov.jpg', ['class' => 'img img-responsive']) ?>
             <b>
                 <?= Yii::t('team', 'Zhumadilov Kair Bekbatyrovich') ?>
             </b>
@@ -71,7 +71,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="item-user">
-            <?= Html::img('/img/team/user.png', ['class' => 'img img-responsive']) ?>
+            <?= Html::img('/img/team/cheremisin.jpg', ['class' => 'img img-responsive']) ?>
             <b>
                 <?= Yii::t('team', 'Cheremisin Dmitry Vladimirovich') ?>
             </b>
@@ -83,7 +83,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="item-user">
-            <?= Html::img('/img/team/user.png', ['class' => 'img img-responsive']) ?>
+            <?= Html::img('/img/team/simukhin.jpg', ['class' => 'img img-responsive']) ?>
             <b>
                 <?= Yii::t('team', 'Simukhin Alexander Ilyich') ?>
             </b>
