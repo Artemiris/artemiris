@@ -6,7 +6,9 @@
   .item-new .date {
     color: #777;
     font-weight: 600; }
-  .item-new h4 {
-    margin-bottom: 30px; }
+  .item-new .poster {
+    display: block;
+    height: 200px;
+    margin-bottom: 25px; }
 
 /*# sourceMappingURL=news.css.map */
