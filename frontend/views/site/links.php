@@ -9,7 +9,7 @@ $this->title = Yii::t('app', 'Links');
 ?>
 <h1><?= Html::encode($this->title) ?></h1>
 
-<ol class="list-group">
+<ol>
     <li>
         <a href="http://www.cidoc-crm.org/" target="_blank">http://www.cidoc-crm.org/</a>
     </li>
