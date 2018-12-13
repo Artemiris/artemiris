@@ -36,7 +36,11 @@ $this->title = Yii::$app->name;
                 Проект «Artemiris» направлен на разработку эффективной технологии документирования археологических
                 объектов (артефактов, археологических памятников, комплексов памятников), интеграции материалов на
                 основе информационной системы и обмена такими данными.
-                <br>
+            </p>
+            <p>
+                Проекте сосредоточен на материалах исследований наскального искусства и мобильной пластики каменного века Южной Сибири
+            </p>
+            <p>
                 <?= Html::a(Yii::t('app', 'Read more'), ['site/project'], ['class' => 'btn btn-primary']) ?>
             </p>
         </div>
@@ -95,7 +99,7 @@ $this->title = Yii::$app->name;
                 </div>
                 <div class="panel-body">
                     <p>
-                        <?= Yii::t('home', 'Geoinformation system on petroglyphs of Turu-Alty Kosh-Agach district of Altai river') ?>
+                        <?= Yii::t('home', 'Geoinformation system on petroglyphs of Turu-Alty Kosh-Agach district of Altai river') ?>.
                         <?= Yii::t('home', 'Ghent University Database - {n} object', [
                             'n' => 321,
                         ]) ?>

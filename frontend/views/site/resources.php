@@ -53,7 +53,7 @@ $this->title = Yii::t('app', 'Resources');
 <h3><?= Yii::t('resources', '3D Gallery') ?> <?= Yii::t('resources', 'NSU') ?></h3>
 <p>
     <?= Yii::t('resources', 'Gallery of three-dimensional models developed at the Novosibirsk State University. The database contains about {n} models, mainly archaeological subjects.', [
-        'n' => 200,
+        'n' => 100,
     ]) ?>
 </p>
 <p>
