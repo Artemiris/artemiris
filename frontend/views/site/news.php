@@ -7,7 +7,7 @@ use yii\helpers\Html;
 $this->registerCssFile('css/news.css', ['depends' => ['yii\bootstrap\BootstrapPluginAsset']]);
 
 $this->title = Yii::t('app', 'News');
-$this->params['breadcrumbs'][] = $this->title;
+//$this->params['breadcrumbs'][] = $this->title;
 ?>
 <h1><?= Html::encode($this->title) ?></h1>
 

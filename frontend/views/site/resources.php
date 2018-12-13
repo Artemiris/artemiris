@@ -5,7 +5,7 @@
 use yii\helpers\Html;
 
 $this->title = Yii::t('app', 'Resources');
-$this->params['breadcrumbs'][] = $this->title;
+//$this->params['breadcrumbs'][] = $this->title;
 ?>
 <h1><?= Html::encode($this->title) ?></h1>
 
