@@ -30,19 +30,20 @@ $this->title = Yii::$app->name;
     </div>
 </div>
 <div class="container">
-
-    <p>
-        Проект «Artemiris» направлен на разработку эффективной технологии документирования археологических объектов
-        (артефактов, археологических памятников, комплексов памятников), интеграции материалов на основе информационной
-        системы и обмена такими данными.
-    </p>
-    <p>
-        <?= Html::a(Yii::t('app', 'Read more'), ['site/project'], ['class' => 'btn btn-primary']) ?>
-    </p>
-
-    <br>
-
     <div class="row">
+        <div class="col-xs-12">
+            <p>
+                Проект «Artemiris» направлен на разработку эффективной технологии документирования археологических
+                объектов (артефактов, археологических памятников, комплексов памятников), интеграции материалов на
+                основе информационной системы и обмена такими данными.
+                <br>
+                <?= Html::a(Yii::t('app', 'Read more'), ['site/project'], ['class' => 'btn btn-primary']) ?>
+            </p>
+        </div>
+
+        <div class="clearfix"></div>
+        <br>
+
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading text-center">
