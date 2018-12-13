@@ -77,7 +77,7 @@ AppAsset::register($this);
 
 
     <?= Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
+        'options' => ['class' => 'navbar-nav'],
         'items' => $menuItems,
         'encodeLabels' => false,
     ]) ?>
