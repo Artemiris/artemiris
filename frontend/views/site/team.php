@@ -93,7 +93,7 @@ $this->title = Yii::t('app', 'Team');
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="item-user">
-            <?= Html::img('/img/team/user.png', ['class' => 'img img-responsive']) ?>
+            <?= Html::img('/img/team/rostyazhenko.jpg', ['class' => 'img img-responsive']) ?>
             <b>
                 <?= Yii::t('team', 'Rostyazhenko Tatyana') ?>
             </b>
