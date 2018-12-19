@@ -29,7 +29,7 @@ $this->title = Yii::t('app', 'Links');
         <a href="https://projectmosul.org/" target="_blank">https://projectmosul.org/</a>
     </li>
     <li>
-        <a href="https://ogham.celt.dias.ie/stone.php?lang=en&site=Ballynahunt&stone=171._Ballynahunt&stoneinfo=html3dview" target="_blank">ogham.celt.dias.ie</a>
+        <a href="https://ogham.celt.dias.ie/stone.php?lang=en&site=Ballynahunt&stone=171._Ballynahunt&stoneinfo=html3dview" target="_blank">https://ogham.celt.dias.ie</a>
     </li>
     <li>
         <a href="http://www.3dhop.net/" target="_blank">http://www.3dhop.net/</a>
