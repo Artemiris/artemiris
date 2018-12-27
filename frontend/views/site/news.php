@@ -22,7 +22,7 @@ $this->title = Yii::t('app', 'News');
             <h4><?= Yii::t('news', 'Russian-Belgian cooperation') ?></h4>
             <div style="background: url('/img/news/2018110101.png') center center no-repeat / cover" class="row poster"></div>
             <p>
-                <?= Yii::t('news', 'In collaboration with the research team of the University of Ghent, an information system was developed for the Petroglyphs of the Turu-Alty Kosh-Agachsky District, r. Altai.') ?>
+                <?= Yii::t('news', 'In collaboration with the research team of the Ghent University, an information system of Petroglyphs of the Turu-Alty Kosh-Agach district, Altai republic was developed.') ?>
             </p>
         </div>
     </div>
@@ -50,7 +50,7 @@ $this->title = Yii::t('app', 'News');
             <h4><?= Yii::t('news', 'Project start') ?></h4>
             <div style="background: url('/img/news/2018070301.jpg') center center no-repeat / cover" class="row poster"></div>
             <p>
-                <?= Yii::t('news', 'The project to develop an effective technology for documenting archaeological objects was financed by the Russian Science Foundation as part of the event “Research by research teams under the guidance of young scientists.” Grant issued for 3 years.') ?>
+                <?= Yii::t('news', 'The project to develop an effective technology for documenting archaeological objects was financed by the Russian Science Foundation as part of the “Research by scientific groups under the guidance of young scientists” event. Grant issued for 3 years.') ?>
             </p>
         </div>
     </div>
