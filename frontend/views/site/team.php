@@ -69,18 +69,6 @@ $this->title = Yii::t('app', 'Team');
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="item-user">
-            <?= Html::img('/img/team/cheremisin.jpg', ['class' => 'img img-responsive']) ?>
-            <b>
-                <?= Yii::t('team', 'Cheremisin Dmitry') ?>
-            </b>
-            <p>
-                <?= Yii::t('team', 'Research and documentation of rock images of South Siberia, Senior Researcher at LIA ARTEMIR') ?>.
-                <div class="email"><a href="mailto:topsya@bk.ru">topsya@bk.ru</a></div>
-            </p>
-        </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="item-user">
             <?= Html::img('/img/team/simukhin.jpg', ['class' => 'img img-responsive']) ?>
             <b>
                 <?= Yii::t('team', 'Simukhin Alexander') ?>
