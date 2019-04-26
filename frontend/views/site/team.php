@@ -45,6 +45,30 @@ $this->title = Yii::t('app', 'Team');
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="item-user">
+            <?= Html::img('/img/team/simukhin.jpg', ['class' => 'img img-responsive']) ?>
+            <b>
+                <?= Yii::t('team', 'Simukhin Alexander') ?>
+            </b>
+            <p>
+                <?= Yii::t('team', 'Research and documentation of rock images of South Siberia, Junior Researcher at Institute for Mongolian, Buddhist and Tibetan Studies SB RAS') ?>.
+            <div class="email"><a href="mailto:simply.sima@mail.ru">simply.sima@mail.ru</a></div>
+            </p>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="item-user">
+            <?= Html::img('/img/team/zhumadilov.jpg', ['class' => 'img img-responsive']) ?>
+            <b>
+                <?= Yii::t('team', 'Zhumadilov Kair') ?>
+            </b>
+            <p>
+                <?= Yii::t('team', '3D modeling, development of web interfaces and information systems, engineer at LIA ARTEMIR') ?>.
+            <div class="email"><a href="mailto:zhumadilov@nsu.ru">zhumadilov@nsu.ru</a></div>
+            </p>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="item-user">
             <?= Html::img('/img/team/kovalev.jpg', ['class' => 'img img-responsive']) ?>
             <b>
                 <?= Yii::t('team', 'Kovalev Vasily') ?>
@@ -57,25 +81,13 @@ $this->title = Yii::t('app', 'Team');
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="item-user">
-            <?= Html::img('/img/team/zhumadilov.jpg', ['class' => 'img img-responsive']) ?>
+            <?= Html::img('/img/team/pankina.jpg', ['class' => 'img img-responsive']) ?>
             <b>
-                <?= Yii::t('team', 'Zhumadilov Kair') ?>
+                <?= Yii::t('team', 'Pankina Anna') ?>
             </b>
             <p>
-                <?= Yii::t('team', '3D modeling, development of web interfaces and information systems, engineer at LIA ARTEMIR') ?>.
-                <div class="email"><a href="mailto:zhumadilov@nsu.ru">zhumadilov@nsu.ru</a></div>
-            </p>
-        </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="item-user">
-            <?= Html::img('/img/team/simukhin.jpg', ['class' => 'img img-responsive']) ?>
-            <b>
-                <?= Yii::t('team', 'Simukhin Alexander') ?>
-            </b>
-            <p>
-                <?= Yii::t('team', 'Research and documentation of rock images of South Siberia, Junior Researcher at Institute for Mongolian, Buddhist and Tibetan Studies SB RAS') ?>.
-                <div class="email"><a href="mailto:simply.sima@mail.ru">simply.sima@mail.ru</a></div>
+                <?= Yii::t('team', 'Research and documentation of mobile plastics in Southern Siberia, student at Novosibirsk State University') ?>.
+            <div class="email"><a href="mailto:pankina1995b@mail.ru">pankina1995b@mail.ru</a></div>
             </p>
         </div>
     </div>
