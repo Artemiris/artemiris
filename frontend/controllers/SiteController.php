@@ -105,6 +105,11 @@ class SiteController extends Controller
         return $this->render('links');
     }
 
+    public function actionMobileapp()
+    {
+        return $this->render('mobile');
+    }
+
     /**
      * Logs in a user.
      *
