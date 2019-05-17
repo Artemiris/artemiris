@@ -10,10 +10,6 @@ $this->title = Yii::t('mobile', 'Mobile Application');
 <h1><?= Html::encode($this->title) ?></h1>
 
 <p>
-    <?= Yii::t('project', 'Nowadays, one of the main problems of archaeology is documentation and systematization of historical and cultural objects. During the last decades sufficiently large amount of archaeological data were marked and described, the data were also presented in monographic or cataloged types. In recent years technical progress has significantly influenced the ways and possibilities of documentation of archaeological objects. At the same time, despite the new significant opportunities, the issue of documentation and systematization of archaeological knowledge has a number of unsolved problems:') ?>
-</p>
-
-<p>
     <?= Yii::t('mobile', 'A special PetrogisMobile application for Android mobile devices will be useful for working on rock art monuments. The application allows to quickly document panels with petroglyphs, their geographical coordinates and orientation in automatic mode. The application can work offline, and when access to the Internet appears, automatically uploads the collected data to the information system artemiris.org.') ?>
 </p>
 
