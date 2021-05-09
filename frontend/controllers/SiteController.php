@@ -110,6 +110,11 @@ class SiteController extends Controller
         return $this->render('mobile');
     }
 
+    public function actionMonography()
+    {
+        $this->redirect('https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/lLL3lmP-gPirUQ',307);
+    }
+
     /**
      * Logs in a user.
      *
