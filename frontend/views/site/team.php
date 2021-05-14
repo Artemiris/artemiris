@@ -95,7 +95,7 @@ $this->title = Yii::t('app', 'Team');
         <div class="item-user">
             <?= Html::img('/img/team/rostyazhenko.jpg', ['class' => 'img img-responsive']) ?>
             <b>
-                <?= Yii::t('team', 'Rostiazhenko Tatiana') ?>
+                <?= Yii::t('team', 'Tatiana Rostiazhenko') ?>
             </b>
             <p>
                 <?= Yii::t('team', 'Research and documentation of portable art in Southern Siberia, engineer at Novosibirsk State University (MRPAE NSU)') ?>
