@@ -15,7 +15,7 @@ $this->title = Yii::t('app', 'Team');
 <h3><?= Yii::t('team', 'Organizations') ?></h3>
 <p>
     <?= Yii::t('team', 'Novosibirsk State University') ?>,
-    <?= Yii::t('team', '«Multidisciplinary Research on Prehistoric Art in Eurasia» Lab (LIA ARTEMIR)') ?>
+    <?= Yii::t('team', '«Multidisciplinary Research on Prehistoric Art in Eurasia» Lab (MRPAE NSU)') ?>
 </p>
 <br>
 <div class="row">
@@ -23,10 +23,10 @@ $this->title = Yii::t('app', 'Team');
         <div class="item-user">
             <?= Html::img('/img/team/kazakov.jpg', ['class' => 'img img-responsive']) ?>
             <b>
-                <?= Yii::t('team', 'Kazakov Vladislav') ?>
+                <?= Yii::t('team', 'Vladislav Kazakov') ?>
             </b>
             <p>
-                <?= Yii::t('team', 'Project Director, Senior Researcher at LIA ARTEMIR') ?>.
+                <?= Yii::t('team', 'Project Director, Senior Researcher at Novosibirsk State University (MRPAE NSU)') ?>
                 <div class="email"><a href="mailto:vkazakov@phys.nsu.ru">vkazakov@phys.nsu.ru</a></div>
             </p>
         </div>
@@ -35,10 +35,10 @@ $this->title = Yii::t('app', 'Team');
         <div class="item-user">
             <?= Html::img('/img/team/lbova.jpg', ['class' => 'img img-responsive']) ?>
             <b>
-                <?= Yii::t('team', 'Lbova Lyudmila') ?>
+                <?= Yii::t('team', 'Liudmila Lbova') ?>
             </b>
             <p>
-                <?= Yii::t('team', 'Research and documentation of mobile plastics in Southern Siberia, Lead Researcher at LIA ARTEMIR') ?>.
+                <?= Yii::t('team', 'Research and documentation of portable art in Southern Siberia, Lead Researcher at Novosibirsk State University (MRPAE NSU)') ?>
                 <div class="email"><a href="mailto:lbovapnr5@gmail.com">lbovapnr5@gmail.com</a></div>
             </p>
         </div>
@@ -47,10 +47,10 @@ $this->title = Yii::t('app', 'Team');
         <div class="item-user">
             <?= Html::img('/img/team/simukhin.jpg', ['class' => 'img img-responsive']) ?>
             <b>
-                <?= Yii::t('team', 'Simukhin Alexander') ?>
+                <?= Yii::t('team', 'Aleksandr Simukhin') ?>
             </b>
             <p>
-                <?= Yii::t('team', 'Research and documentation of rock images of South Siberia, Junior Researcher at Institute for Mongolian, Buddhist and Tibetan Studies SB RAS') ?>.
+                <?= Yii::t('team', 'Research and documentation of rock art of South Siberia, Junior Researcher at Institute for Mongolian, Buddhist and Tibetan Studies SB RAS') ?>
             <div class="email"><a href="mailto:simply.sima@mail.ru">simply.sima@mail.ru</a></div>
             </p>
         </div>
@@ -59,11 +59,11 @@ $this->title = Yii::t('app', 'Team');
         <div class="item-user">
             <?= Html::img('/img/team/zhumadilov.jpg', ['class' => 'img img-responsive']) ?>
             <b>
-                <?= Yii::t('team', 'Zhumadilov Kair') ?>
+                <?= Yii::t('team', 'Kair Zhumadilov') ?>
             </b>
             <p>
-                <?= Yii::t('team', '3D modeling, development of web interfaces and information systems, engineer at LIA ARTEMIR') ?>.
-            <div class="email"><a href="mailto:zhumadilov@nsu.ru">zhumadilov@nsu.ru</a></div>
+                <?= Yii::t('team', '3D modeling, development of web interfaces and information systems, engineer at Novosibirsk State University (MRPAE NSU)') ?>
+            <div class="email"><a href="mailto:zhumadilov@nsu.ru">zhumadilov@alumni.nsu.ru</a></div>
             </p>
         </div>
     </div>
@@ -71,10 +71,10 @@ $this->title = Yii::t('app', 'Team');
         <div class="item-user">
             <?= Html::img('/img/team/kovalev.jpg', ['class' => 'img img-responsive']) ?>
             <b>
-                <?= Yii::t('team', 'Kovalev Vasily') ?>
+                <?= Yii::t('team', 'Vasily Kovalev') ?>
             </b>
             <p>
-                <?= Yii::t('team', 'Studies of the documentation of rock images, 3D modeling, development of web interfaces and information systems, engineer at LIA ARTEMIR') ?>.
+                <?= Yii::t('team', 'Studies of the methods for documentation of rock art, 3D modeling, development of web interfaces and information systems, engineer at Novosibirsk State University (MRPAE NSU)') ?>
                 <div class="email"><a href="mailto:vasiliy.s.kovalev@gmail.com">vasiliy.s.kovalev@gmail.com</a></div>
             </p>
         </div>
@@ -83,10 +83,10 @@ $this->title = Yii::t('app', 'Team');
         <div class="item-user">
             <?= Html::img('/img/team/pankina.jpg', ['class' => 'img img-responsive']) ?>
             <b>
-                <?= Yii::t('team', 'Pankina Anna') ?>
+                <?= Yii::t('team', 'Anna Pankina') ?>
             </b>
             <p>
-                <?= Yii::t('team', 'Research and documentation of mobile plastics in Southern Siberia, student at Novosibirsk State University') ?>.
+                <?= Yii::t('team', 'Research and documentation of portable art in Southern Siberia, engineer at Novosibirsk State University (MRPAE NSU)') ?>
             <div class="email"><a href="mailto:pankina1995b@mail.ru">pankina1995b@mail.ru</a></div>
             </p>
         </div>
@@ -95,10 +95,10 @@ $this->title = Yii::t('app', 'Team');
         <div class="item-user">
             <?= Html::img('/img/team/rostyazhenko.jpg', ['class' => 'img img-responsive']) ?>
             <b>
-                <?= Yii::t('team', 'Rostyazhenko Tatyana') ?>
+                <?= Yii::t('team', 'Tatiana Rostiazhenko') ?>
             </b>
             <p>
-                <?= Yii::t('team', 'Research and documentation of mobile plastics in Southern Siberia, student at Novosibirsk State University') ?>.
+                <?= Yii::t('team', 'Research and documentation of portable art in Southern Siberia, engineer at Novosibirsk State University (MRPAE NSU)') ?>
                 <div class="email"><a href="mailto:miss.oldman2017@yandex.ru">miss.oldman2017@yandex.ru</a></div>
             </p>
         </div>
