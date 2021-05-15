@@ -103,6 +103,30 @@ $this->title = Yii::t('app', 'Team');
             </p>
         </div>
     </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="item-user">
+            <?= Html::img('/img/team/konokhov.jpg', ['class' => 'img img-responsive']) ?>
+            <b>
+                <?= Yii::t('team', 'Vladimir Konokhov') ?>
+            </b>
+            <p>
+                <?= Yii::t('team', 'Research and documentation of rock art in Southern Siberia, senior researcher at Minusinsk Museum of Local Lore named after N.M. Martyanov') ?>
+            <div class="email"><a href="mailto:vladimir.konohov@mail.ru">vladimir.konohov@mail.ru</a></div>
+            </p>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="item-user">
+            <?= Html::img('/img/team/gubar.jpg', ['class' => 'img img-responsive']) ?>
+            <b>
+                <?= Yii::t('team', 'Yuliya Gubar') ?>
+            </b>
+            <p>
+                <?= Yii::t('team', 'Research and documentation of pigments and portable art in Southern Siberia and the Far East, engineer at Novosibirsk State University (MRPAE NSU)') ?>
+            <div class="email"><a href="mailto:julfoxzzz@gmail.com">julfoxzzz@gmail.com</a></div>
+            </p>
+        </div>
+    </div>
 </div>
 
 <?= Yii::t('team', '') ?>
