@@ -119,10 +119,10 @@ $this->title = Yii::t('app', 'Team');
         <div class="item-user">
             <?= Html::img('/img/team/gubar.jpg', ['class' => 'img img-responsive']) ?>
             <b>
-                <?= Yii::t('team', 'Gubar Yuliya') ?>
+                <?= Yii::t('team', 'Yuliya Gubar') ?>
             </b>
             <p>
-                <?= Yii::t('team', 'Research and documentation of pigments and portable art in Southern Siberia and the Far East, engineer at Novosibirsk State University') ?>
+                <?= Yii::t('team', 'Research and documentation of pigments and portable art in Southern Siberia and the Far East, engineer at Novosibirsk State University (MRPAE NSU)') ?>
             <div class="email"><a href="mailto:julfoxzzz@gmail.com">julfoxzzz@gmail.com</a></div>
             </p>
         </div>
