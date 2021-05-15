@@ -107,10 +107,10 @@ $this->title = Yii::t('app', 'Team');
         <div class="item-user">
             <?= Html::img('/img/team/konokhov.jpg', ['class' => 'img img-responsive']) ?>
             <b>
-                <?= Yii::t('team', 'Konokhov Vladimir') ?>
+                <?= Yii::t('team', 'Vladimir Konokhov') ?>
             </b>
             <p>
-                <?= Yii::t('team', 'Research and documentation of rock art in Southern Siberia, senior researcher at Minusinsk Regional Museum of Local Lore') ?>.
+                <?= Yii::t('team', 'Research and documentation of rock art in Southern Siberia, senior researcher at Minusinsk Museum of Local Lore named after N.M. Martyanov') ?>
             <div class="email"><a href="mailto:vladimir.konohov@mail.ru">vladimir.konohov@mail.ru</a></div>
             </p>
         </div>
@@ -122,7 +122,7 @@ $this->title = Yii::t('app', 'Team');
                 <?= Yii::t('team', 'Gubar Yuliya') ?>
             </b>
             <p>
-                <?= Yii::t('team', 'Research and documentation of pigments and portable art in Southern Siberia and the Far East, engineer at Novosibirsk State University') ?>.
+                <?= Yii::t('team', 'Research and documentation of pigments and portable art in Southern Siberia and the Far East, engineer at Novosibirsk State University') ?>
             <div class="email"><a href="mailto:julfoxzzz@gmail.com">julfoxzzz@gmail.com</a></div>
             </p>
         </div>
