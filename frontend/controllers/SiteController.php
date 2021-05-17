@@ -123,12 +123,12 @@ class SiteController extends Controller
     //Названия файлов впишите свои
     public function actionMesh()
     {
-        Yii::$app->response->sendFile('materials/mesh_simplification.pdf', 'Инструкция по симплификации меша.pdf');
+        return Yii::$app->response->sendFile('materials/mesh_simplification.pdf', 'Инструкция по симплификации меша.pdf');
     }
 
     public function actionWarp()
     {
-        Yii::$app->response->sendFile('/materials/texture_warp.pdf', 'Инструкция по переносу прорисовок с фото.pdf');
+        return Yii::$app->response->sendFile('materials/texture_warp.pdf', 'Инструкция по переносу прорисовок с фото.pdf');
     }
 
     /**
