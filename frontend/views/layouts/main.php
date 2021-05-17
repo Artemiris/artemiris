@@ -49,7 +49,7 @@ AppAsset::register($this);
 //        ['label' => Yii::t('app', 'News'), 'url' => ['/site/news']],
         ['label' => Yii::t('app', 'Team'), 'url' => ['/site/team']],
         ['label' => Yii::t('app', 'Publication'), 'url' => ['/site/publication']],
-//        ['label' => Yii::t('app', 'Links'), 'url' => ['/site/links']],
+        ['label' => Yii::t('app', 'Guides'), 'url' => ['/site/results']],
     ];
     //    if (Yii::$app->user->isGuest) {
     //        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];

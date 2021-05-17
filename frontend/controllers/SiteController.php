@@ -115,6 +115,22 @@ class SiteController extends Controller
         $this->redirect('https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/lLL3lmP-gPirUQ',307);
     }
 
+    public function actionResults()
+    {
+        return $this->render('results');
+    }
+
+    //Названия файлов впишите свои
+    public function actionMesh()
+    {
+        return Yii::$app->response->sendFile('materials/mesh_simplification.pdf', 'Simplification guide.pdf');
+    }
+
+    public function actionWarp()
+    {
+        return Yii::$app->response->sendFile('materials/texture_warp.pdf', 'tracing transfer guide.pdf');
+    }
+
     /**
      * Logs in a user.
      *
